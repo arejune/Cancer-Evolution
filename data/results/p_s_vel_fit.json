@@ -1,0 +1,16 @@
+{
+ "t": "2026-09-23 22:01:21",
+ "converged": {
+  "7": true,
+  "14": true,
+  "28": true,
+  "56": true
+ },
+ "hash": {
+  "7|VEL": "e6bcbcb909fa0370611bc9eca7e78a5eacfd4fb56d7d2e35ed8de9e31492edaf",
+  "14|VEL": "f096a654cd9a3b4eb52648796c654ecce209c4f48ee41af3938b357c2084caf5",
+  "28|VEL": "fa57e6b51671b5e96e8180f1446279f4954ee1378661876c5ed237b06dce9349",
+  "56|VEL": "ef7920e8bee388bc1cd4f9f4f1da798b08d6c65defb197125219af1175470bef"
+ },
+ "note": "fitted before any Step 2 block (2400000/2500000/2600000) was read"
+}

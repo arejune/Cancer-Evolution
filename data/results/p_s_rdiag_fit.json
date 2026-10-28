@@ -1,0 +1,40 @@
+{
+ "t": "2026-09-23 22:47:19",
+ "hash": {
+  "7|A0": "2a3c5740a26c7b0640baa54c492b44c9e970f83ad2a806617c809a3b77f071bf",
+  "7|A0R": "b6ab1494aaa0ab7b8e203c420d4050014398a2d1d631644bb0f7e2ed700e4b3d",
+  "7|A1": "920f4810d2bbe69d37f94695f11654a03c7d3e5add61b575276f3e2546e8c221",
+  "7|A1R": "0b387a1e252912c7aa896dea6ede6603a0a3899a6fa7de1da59395999ac3fd6e",
+  "14|A0": "2ce962dbea47ed90e69264c3da626cf11ff3de70e660101f4e91a072b50cd849",
+  "14|A0R": "6bd9d90479e661cd7d14bea9730c6e44330aaa339ade7f7d76272f36f1300277",
+  "14|A1": "fa493bda10ffd2a68e73a1b4b258b2121c67b328abe00a1e86fd0e019964ec66",
+  "14|A1R": "18cb0bb86c50f6228faf9fb5f4a3f5035a14d0e2b52c7cf3f2ec218450da35ef",
+  "28|A0": "d8d854388929dc50cc941a5fb2e44971f461b8eb86605cec610bfb93ee9a1894",
+  "28|A0R": "baeef626305815194165c533736e8422b96d0e2a1446364ebeddd4f1be6d51c5",
+  "28|A1": "18068d192b7ae94d5e0162dcfd824e4213270de7daca276247a9326dd4c20528",
+  "28|A1R": "1206e0ff4c38ba17c00608f10f43aa0655328f434525337eee0bebb84448f7ec",
+  "56|A0": "97d84016e631b08c48cedea761a05aac9f2cef543d16ee1a87d98e1e34cfab9d",
+  "56|A0R": "0f417038ba7630af02da0cd7c9d70120cbde9a5177643638bdbea3e5535b558d",
+  "56|A1": "cf0b4506658e1a2f37375c0b33182ab16d89c34e14e20a3adeb6ae79928611a2",
+  "56|A1R": "028040447128a4c9a1530794fae4aac2543a09f9d24abff681f373f9265bb488"
+ },
+ "converged": {
+  "7|A0": true,
+  "7|A1": true,
+  "7|A0R": true,
+  "7|A1R": true,
+  "14|A0": true,
+  "14|A1": true,
+  "14|A0R": true,
+  "14|A1R": true,
+  "28|A0": true,
+  "28|A1": true,
+  "28|A0R": true,
+  "28|A1R": true,
+  "56|A0": true,
+  "56|A1": true,
+  "56|A0R": true,
+  "56|A1R": true
+ },
+ "note": "A0R/A1R frozen before any Step 2 block was read; A0/A1 reproduce Step 1 hashes"
+}

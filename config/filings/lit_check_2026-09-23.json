@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-23",
+ "method": "PubMed E-utilities esearch/esummary/efetch (raw JSON/XML), PMC efetch full text (raw XML) for rule wording, Crossref /works/{doi} (raw JSON) for every DOI. No summarising fetch.",
+ "verdict": "Kinetics-based adaptive rules EXIST (change-between-measurements dose modulation / skipping; model-predictive and dynamic-programming state feedback). Not found in this search: a controlled comparison of a Gallagher-style size-only hold threshold against history/geometry-augmented hold rules at matched premature-progression risk under discrete monitoring in a spatial model. Absence in a targeted search is not proof of absence.",
+ "items": [
+  {
+   "cite": "Gatenby RA et al. Adaptive therapy. Cancer Res 2009;69:4894-4903",
+   "pmid": "19487300",
+   "doi": "10.1158/0008-5472.CAN-08-3658",
+   "crossref": "OK",
+   "rule": "founding AT concept; dose adjusted to tumour response (abstract-level verification only)",
+   "kinetics": "partial"
+  },
+  {
+   "cite": "Enriquez-Navas PM et al. Sci Transl Med 2016;8:327ra24",
+   "pmid": "26912903",
+   "doi": "10.1126/scitranslmed.aad7842",
+   "crossref": "OK",
+   "rule": "AT-1: dose -50% if volume fell >=20% vs previous MRI, +50% if rose >=20%; AT-2: treatment skipping on % tumour growth rate (PMC4962860 full text)",
+   "kinetics": "YES - change between measurements"
+  },
+  {
+   "cite": "Gallaher JA et al. Cancer Res 2018;78:2127-2139",
+   "pmid": "29382708",
+   "doi": "10.1158/0008-5472.CAN-17-2649",
+   "crossref": "OK",
+   "rule": "spatial ABM; dose modulation triggered by % change in population between measurements (AT2: 10% change -> 50% dose change) vs treatment vacations (PMC5899666)",
+   "kinetics": "YES - in a spatial ABM"
+  },
+  {
+   "cite": "Zhang J et al. Nat Commun 2017;8:1816",
+   "pmid": "29180633",
+   "doi": "10.1038/s41467-017-01968-5",
+   "crossref": "OK",
+   "rule": "abiraterone on/off by PSA level relative to baseline",
+   "kinetics": "no - level"
+  },
+  {
+   "cite": "Gallagher K et al. Bull Math Biol 2025;87:146",
+   "pmid": "40921859",
+   "doi": "10.1007/s11538-025-01525-y",
+   "crossref": "OK",
+   "rule": "threshold-based AT derived for discrete monitoring (PMC12417256)",
+   "kinetics": "no - level threshold"
+  },
+  {
+   "cite": "Brady-Nicholls R et al. Cancers 2022;14:5319 (RBAT)",
+   "pmid": "36358738",
+   "doi": "10.3390/cancers14215319",
+   "crossref": "OK",
+   "rule": "PSA kept between patient-specific bounds",
+   "kinetics": "no - level bounds"
+  },
+  {
+   "cite": "Keizman D et al. Prostate 2011;71:1608-1615",
+   "pmid": "21432863",
+   "doi": "10.1002/pros.21377",
+   "crossref": "OK",
+   "rule": "IAD switching on PSA LEVEL (10-20 ng/ml); PSADT studied as PROGNOSTIC factor",
+   "kinetics": "prognostic only"
+  },
+  {
+   "cite": "Sanchez-Salas R et al. Prostate 2016;76:13-21",
+   "pmid": "26498916",
+   "doi": "10.1002/pros.23098",
+   "crossref": "OK",
+   "rule": "IAD off <4, on >20 ng/ml (levels); off-time PSA kinetics PROGNOSTIC",
+   "kinetics": "prognostic only"
+  },
+  {
+   "cite": "Brady-Nicholls R et al. Nat Commun 2020;11:1750",
+   "pmid": "32273504",
+   "doi": "10.1038/s41467-020-15424-4",
+   "crossref": "OK",
+   "rule": "model fitted to PSA dynamics predicts IADT resistance (prediction, not a switching rule)",
+   "kinetics": "prediction from dynamics"
+  },
+  {
+   "cite": "Hirata Y et al. Methods 2014;67:278-281",
+   "pmid": "24680737",
+   "doi": "10.1016/j.ymeth.2014.03.018",
+   "crossref": "OK",
+   "rule": "model predictive control scheduling of IAS (model-state feedback)",
+   "kinetics": "implicit via model state"
+  },
+  {
+   "cite": "Gluzman M et al. Proc R Soc B 2020;287:20192454",
+   "pmid": "32315588",
+   "doi": "10.1098/rspb.2019.2454",
+   "crossref": "OK",
+   "rule": "dynamic-programming optimal adaptive policy on (composition) state",
+   "kinetics": "state feedback, non-spatial"
+  },
+  {
+   "cite": "Strobl MAR et al. Commun Med 2022;2:46",
+   "pmid": "35603284",
+   "doi": "10.1038/s43856-022-00110-x",
+   "crossref": "OK",
+   "rule": "on-lattice ABM vs ODE for AT; spatial competition; level-based AT",
+   "kinetics": "no"
+  },
+  {
+   "cite": "West J et al. eLife 2023;12:e84263 (survey)",
+   "pmid": "36952376",
+   "doi": "10.7554/eLife.84263",
+   "crossref": "OK",
+   "rule": "survey of open questions in AT",
+   "kinetics": "n/a"
+  }
+ ]
+}

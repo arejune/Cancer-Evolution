@@ -1,0 +1,31 @@
+{
+ "item1_size_vs_p_t_pilot_mismatches": 0,
+ "item2_replay_identical": 200,
+ "item2_rng_advanced": 200,
+ "n_runs": 200,
+ "item3_epochs_checked": 2935,
+ "item3_feature_mismatches": 0,
+ "item3_p_mismatches": 0,
+ "item4_label_violations": 0,
+ "us_per_day_single_worker": {
+  "SIZE": 494.48508630290723,
+  "CLIN": 551.0953638873832,
+  "HIST": 527.9828597065992,
+  "FULL": 528.094312166142,
+  "VEL": 608.3401261895821
+ },
+ "gate_wall_s": 5.418247938156128,
+ "us_per_day_throughput_7w": 78.1098784458911,
+ "arm_cost_ratio_vs_SIZE": {
+  "SIZE": 1.0,
+  "CLIN": 1.1144832860536429,
+  "HIST": 1.0677427375093214,
+  "FULL": 1.0679681284515965,
+  "VEL": 1.2302496941574705
+ },
+ "tune_projection_min_central_pilot": 36.86786262646059,
+ "score_projection_min_central_pilot": 9.216965656615148,
+ "score_projection_min_worst_pilot": 19.527469611472775,
+ "GATE": "PASS",
+ "TUNE_LAUNCH": true
+}

@@ -1,0 +1,18 @@
+{
+ "note": "Digests of the research code's outputs, computed with tests/_subset_worker.py research and the research repository's scripts at research commit ed27e50. sha256 of the canonical JSON of each subset's outputs (including the final generator states), of the printed reports, and of every ledger entry's (kind, text, value).",
+ "research_commit": "ed27e50",
+ "subsets": {
+  "main_abm": "5f01d3aa9ea6bec5a8ec1b4367e52c733ea220327e96c615e8b966ef5d0b037a",
+  "main_arms": "aa30b4b003bc569dfed7dde30e85dd13f97c815797b8f95f7baabb5358a92dd9",
+  "recal_map": "7519b5c323c9aaf845167948e0affd7e3d33d502ce2568014bbf92465a7401b6",
+  "recal_sweep": "a444b0cadbad4e6531b897790346dcaac03af9c9563007032187269ebe3d0200",
+  "recal_ctmc": "4854c215505fa7fc15242280205da9107e69e1554eae9f64d7548bbd8d6d59f9",
+  "statesuff_log": "924f8dd8b600f0737faa07045ce70705b52e8528de1cfaf330084cd8aff2eb19",
+  "policy": "5e9e37a3526beb568258b31120fcafb31d5b545084c0a6deb1b4235d42455d49"
+ },
+ "stdout": {
+  "transfer_report": "8c97ba64a5b1f8c65299755164c011e0ce1fc7791e7c7b2709af912c186ef0f2",
+  "recal_report": "1887e32806f15709c4b078f2d9c242b8a5d003e2de93e10096104e907a9ff559"
+ },
+ "ledger_values_sha256": "5d1b033a38c7d362962106ae7df0b97550ae3c08f1daac4f0e5d629e4ba163d7"
+}

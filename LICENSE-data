@@ -1,0 +1,15 @@
+Licence for data, figures, tables and text
+
+Everything in this repository that is not source code is licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/ :
+
+  - data/ (the simulation results and records), figures/, tables/;
+  - config/ (pre-registrations, filed results, excerpts);
+  - README.md and the other documentation.
+
+The archived raw results fetched by data/fetch_data.py carry the same licence.
+Attribution: Arjun Grandhe (2026).
+
+The source code (src/, scripts/, tests/, data/fetch_data.py) is licensed under the MIT licence in LICENSE.
+
+Not covered: the DejaVu Sans font embedded in the figure files is under the Bitstream Vera licence.

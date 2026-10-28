@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this repository."
+title: "Code and results for: What a size-only threshold for holding cancer treatment loses in a spatial tumour model"
+type: software
+authors:
+  - family-names: Grandhe
+    given-names: Arjun
+    affiliation: "Albuquerque Academy, Albuquerque, NM, USA"
+license: MIT
+repository-code: "https://github.com/arejune/Cancer-Evolution"
+# doi: N/A
+date-released: 2026-10-27
